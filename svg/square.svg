@@ -1,0 +1,6 @@
+<svg width="300px" height="200px" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="lightgray" x='50' />
+  <text x='150' y='100' dominant-baseline="middle" text-anchor="middle" font-size="30" fill="black">
+    SVG
+  </text>
+</svg>
