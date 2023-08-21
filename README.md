@@ -5,13 +5,13 @@ by Julie
 * [Usage](#usage)
 * [Customization](#customization)
 * [Contributing](#contributing)
-![](https://github.com/julie0327/svg_logo_maker/blob/main/svg.logo.png)
+
 ## Getting Started
 * Clone the repository to your local machine
 * Navigate to the project directory
 * Install the required dependencies
 * Start generating SVG logos!
-
+![](https://github.com/julie0327/svg_logo_maker/blob/main/svg.logo.png)
 ## Usage
 * The main script for generating SVG logos is generate-logo.js. You can use it in the following way: node generate-logo.js
 * This will generate a default SVG logo and save it as logo.svg in the project directory.
