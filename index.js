@@ -4,17 +4,21 @@ const { Circle, Square, Triangle } = require("./lib/shapes");
 
 function writeFile(fileName, answer) {
   let svg = "";
-  svg = '<svg width="300px" height="200px" xmlns="http://www.w3.org/2000/svg">';
+  svg +=
+    '<svg width="300px" height="200px" xmlns="http://www.w3.org/2000/svg">';
 
   let shapeChoice;
   if (answer.shape === "triangle") {
-    shapeChoice = new Triangle(answer.shape_color);
+    shapeChoice = new Triangle();
+    shapeChoice.setColor(answer.shape_color);
     svg += shapeChoice.render();
   } else if (answer.shape === "circle") {
-    shapeChoice = new Circle(answer.shape_color);
+    shapeChoice = new Circle();
+    shapeChoice.setColor(answer.shape_color);
     svg += shapeChoice.render();
   } else if (answer.shape === "square") {
-    shapeChoice = new Square(answer.shape_color);
+    shapeChoice = new Square();
+    shapeChoice.setColor(answer.shape_color);
     svg += shapeChoice.render();
   }
   svg += `<text x='150' y='100' dominant-baseline="middle" text-anchor="middle" font-size="50" fill='${answer.text_color}'>
