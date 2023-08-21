@@ -5,6 +5,8 @@ by Julie
 * [Usage](#usage)
 * [Customization](#customization)
 * [Contributing](#contributing)
+* [Testing](#testing)
+* [license](#license)
 
 ## Getting Started
 * Clone the repository to your local machine
@@ -24,3 +26,7 @@ by Julie
 * Text: If your logo includes text, you can customize the font, size, and content of the text.
 ## Contributing
 * Contributions to this repository are welcome! If you have ideas for improvements or new features, feel free to open an issue or submit a pull request.
+## Testing
+N/A
+## License
+N/A
