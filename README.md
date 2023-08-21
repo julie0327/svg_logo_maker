@@ -5,7 +5,7 @@ by Julie
 * [Usage](#usage)
 * [Customization](#customization)
 * [Contributing](#contributing)
-
+![](https://github.com/julie0327/svg_logo_maker/blob/main/svg.logo.png)
 ## Getting Started
 * Clone the repository to your local machine
 * Navigate to the project directory
