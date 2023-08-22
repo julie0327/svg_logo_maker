@@ -56,10 +56,6 @@ inquirer
     },
   ])
   .then((answer) => {
-    console.log(answer.text);
-    console.log(answer.text_color);
-    console.log(answer.shape);
-    console.log(answer.shape_color);
     if (answer.text.length > 3) {
       console.log("No more than 3 characters");
       return;
